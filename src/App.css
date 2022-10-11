@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: rgb(244, 138, 191);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.birthdayContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 35vw;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px 0px black;
+  font-family: "Changa";
+}
+
+.birthdayContainer h1 {
+  margin: 12px auto;
+  padding: auto;
+}
+
+.birthdayContainer ul li {
+  display: flex;
+  list-style: none;
+  text-transform: capitalize;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.profileImage {
+  height: 100px;
+  border-radius: 50%;
+  margin: 12px 30px 12px 50px;
+  padding: auto;
+}
+
+.clrDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clrBtn {
+  background-color: hotpink;
+  width: 80%;
+  border-radius: 4px;
+  color: white;
+  padding: 12px 12px;
+  margin: 12px auto;
+  border: none;
+  font-weight: bold;
+}
+
+.greyText {
+  margin-top: 5px;
+  color: grey;
+}
